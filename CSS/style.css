@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border-color: white;
+}
+
+#mail, #clave {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+
+}
+
+button {
+    padding: 10px;
+    width: 20%;
+    margin-top: 30px;
+    background: linear-gradient(150deg, #a602ff, #f10271, #00b8c2);
+    background-size: 400% 300%;
+    animation: gradient 5s ease infinite;
+    color: rgb(10, 10, 10);
+    border-radius: 10px;
+    border-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.contenedorImg {
+    width: 50%;
+    height: 200%;
+    transform: rotate(30deg);
+}
+
+.imgLentes {
+    width: 115%;
+    height: 100%;
+    object-fit: cover;
+}
